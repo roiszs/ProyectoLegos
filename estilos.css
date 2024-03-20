@@ -33,6 +33,39 @@
             background: lightcoral;
             grid-area: nav;
         }
+        .navbar-content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 0 0 80px;
+
+            animation: 2s navbar 0.5s ease-in-out;
+        }
+        @keyframes navbar {
+            0%{
+                transform: translateY(-200px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        .navbar-content img {
+            width: 50px;
+            
+        }
+
+        .navbar-content ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 0;
+            width: 450px;
+    }
+        .navbar-content ul li a {
+            color: var(--red);
+            font-weight: 100;
+            text-decoration: none;
+        }
         .loader {
             background-color: white;
             width: 100%;
@@ -43,7 +76,7 @@
             position: absolute;
             z-index: 3;
 
-            animation: loader 2s linear forwards;
+            animation: loader 0.2s linear forwards;
         }
       
 
