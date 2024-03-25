@@ -291,4 +291,9 @@
             width: 50%;
             height: 50%;
         }
+        .modal-content-close {
+            height: 20px;
+            width: 20px;
+            padding: 1%;
+        }
         
