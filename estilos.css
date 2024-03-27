@@ -298,6 +298,10 @@
             width: 20px;
             padding: 1%;
         }
+        .modal-content #close {
+            place-self: end;
+            align-self: start;
+        }
         
         .modal-content-slider {
             width: 300px;
